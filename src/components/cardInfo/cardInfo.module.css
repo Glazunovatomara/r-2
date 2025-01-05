@@ -1,0 +1,13 @@
+.card {
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #0e2116;
+    border-radius: 9px;
+    color: #ef443e;
+    cursor: pointer;
+}
+.img {
+    width: 100%;
+    border-radius: 9px;
+}
