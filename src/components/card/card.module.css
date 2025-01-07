@@ -1,15 +1,37 @@
-
+* {
+    margin: 0;
+}
 .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 100%;
     min-width: 300px;
+    height: 100%;
+    color: #0e2116;
+    background-color: #ffffff;
+    cursor: pointer;
+
     padding: 10px;
     border: 2px solid #0e2116;
     border-radius: 9px;
-    color: #0e2116;
-    cursor: pointer;
-    text-align: center;
+
+    &:active {
+        transform: scale(0.97);
+        transition: transform .2s;
+    }
+
 }
+
+.card_back {
+    background: #ef443e;
+    color: #ffffff;
+}
+
 .img {
     width: 100%;
     border-radius: 9px;
+}
+.card_title {
+    text-align: center;
 }
